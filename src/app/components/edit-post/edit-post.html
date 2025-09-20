@@ -1,0 +1,30 @@
+<div class="edit-post-card">
+
+ 
+  <div class="post-display-section">
+    <h1 class="post-title-display">{{ posttitle3 }}</h1>
+    <p class="post-body-display">{{ postbody3 }}</p>
+    <span class="post-id-display">Post ID: {{ postid3 }}</span>
+  </div>
+
+
+  <hr class="divider">
+
+
+  <div class="post-edit-section">
+    <h2>Edit Post</h2>
+
+    <div class="input-group">
+      <label for="title-input">Title</label>
+      <input id="title-input" type="text" placeholder="Edit the post title..." [(ngModel)]="posttitle2">
+    </div>
+
+    <div class="input-group">
+      <label for="body-input">Body</label>
+      <textarea id="body-input" rows="5" placeholder="Edit the post body..." [(ngModel)]="postbody2"></textarea>
+    </div>
+
+    <button class="save-button" (click)="onedeitsave()">Save Changes</button>
+  </div>
+
+</div>

@@ -1,0 +1,60 @@
+
+body {
+  background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.show-post-card {
+  max-width: 800px;
+  margin: 0 auto;
+  
+
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px); /* For Safari */
+  
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- 1. Display Section Styling --- */
+.post-display-section {
+  padding: 2.5rem 3rem;
+  color: #1a1a2e; /* Darker text for contrast */
+}
+
+.post-display-section .post-title-display {
+  font-size: 3rem;
+  font-weight: 800; /* Bolder font */
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+  color: #16213e;
+  word-break: break-word;
+}
+
+.post-display-section .post-body-display {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #1a1a2e;
+  opacity: 0.8;
+  margin: 0 0 1.5rem 0;
+  white-space: pre-wrap;
+}
+
+.post-display-section .post-id-display {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #0f3460;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 12px;
+  border-radius: 30px; /* Pill shape */
+  display: inline-block;
+}
+
